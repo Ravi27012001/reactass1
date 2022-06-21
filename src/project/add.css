@@ -1,0 +1,65 @@
+.class1{
+    background-image: linear-gradient( to bottom, red ,green,yellow);
+    /* background-color: aqua; */
+    height: 100vh;
+}
+.heading{
+    text-align: center;
+    color: rgb(44, 3, 3);
+    font-size: 3vw;
+    font-weight: bold;
+    text-shadow: 5px 2px 5px rgb(118, 201, 222);
+}
+button{
+     position: relative;
+     top: 10vh;
+     right: 20vw;
+    width: 20vw;
+    height: 8vh;
+    font-size: 20px;
+    background-color: rgb(219, 241, 45);
+    border:solid 5px black;
+    border-radius: 20px;
+}
+.box{
+    position:relative;
+    top: 30vh;
+    left: 10vw;
+    width: 30vw;
+    height: 35vh;
+    font-size: 20px;
+    border: solid 5px black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(129, 167, 248);
+}
+.button1{
+    position: absolute;
+    top: 18vh;
+    right: 25vw;
+    width: 20vw;
+    height: 8vh;
+    background-color: rgb(219, 241, 45);
+    border:solid 5px black;
+    border-radius: 20px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: yellow;
+}
+.button1:hover{
+    cursor: pointer;
+    background-color: yellow;
+}
+.box1{
+    position: absolute;
+    top: 46vh;
+    right: 10vw;
+    width: 30vw;
+    font-size: 20px;
+    height: 35vh;
+    border: solid 5px black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(129, 167, 248);
+}
